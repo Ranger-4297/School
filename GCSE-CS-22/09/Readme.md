@@ -1,0 +1,1 @@
+This subfolder contains work for GCSE Comp. Sci. Lessons between 22nd september and 
