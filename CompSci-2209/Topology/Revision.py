@@ -25,7 +25,7 @@ def Ll():
 # GUI
 root = Tk()
 root.title("Revision") # Name of window
-root.geometry("500x50") # Size of window
+root.geometry("350x50") # Size of window
 root.resizable(0,0) # Prevent window resizing
 root.config(bg="#2f3136") # Window background
 
