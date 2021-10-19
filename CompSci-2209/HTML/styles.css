@@ -1,0 +1,50 @@
+:root {
+  --background-image: url('4K-DOOM-Eternal.jpg')
+}
+html { 
+  background: var(--background-image) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.heading1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(123deg, red, #FF5349, orange, #FFAE42, yellow, #9ACD32, green, #064E40, blue, #3F0FB7, indigo, #8A2BE2, violet);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: #7289da;
+}
+.bg {
+  background-color: #97161d;
+}
+
+
+.text1 {
+  font: 15px 'Tahoma';
+  text-align: center;
+  width: 100%;
+  transition: width 4s;
+  /* needed for when the name is more than one word */
+  white-space: nowrap;
+}
+.bg:hover .text1 {
+  width: 0px;
+  margin-left: 10px;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
