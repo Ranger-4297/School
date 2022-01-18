@@ -1,0 +1,31 @@
+declare total as int
+declare average as real
+declare currentNumber as int
+declare highest as int
+declare lowest as int
+declare numberOfNumbers as int
+
+$total = 0
+$numberOfNumbers = 0
+$highest = 0
+$lowest = 100000
+$average = 0
+output "Please enter numbers used"
+input $numberOfNumbers
+for i = 1 to $NumberOfNumbers
+	output "Enter a number"
+	input $currentNumber
+	Total = $total + $currentNumber
+	if $currentNumber > $highest
+		$highest = $currentNumber
+	else if $currentNumber < $lowest
+		$lowest = $currentNumber
+	end
+end
+loop
+	$average = $total/$numberOfNumbers
+	output (print "The total is " $total)
+	output (print "The average is " $average)
+	output (print "The highest is " $highest
+	output (print "The lowest is " $lowest
+end

@@ -1,0 +1,24 @@
+declare currentMark as real
+declare total as real
+declare highest as real
+declare lowest as real
+declare finalMark as real
+$total = 0.0
+$highest = 0.0
+$lowest = 6.1
+for 1 = 1 to 6
+	output "Please enter judges score"
+	input $currentMark
+	$total = $total + $currentMark
+	if $currentMark > $highest
+		$highest = $currentMark
+	else if $currentMark < $lowest
+		$lowest = $currentMark
+	end
+loop
+	$total = $total - $lowest - $highest
+	finalMark = $total / 4
+	output (print "Highest score is " $highest)
+	output (print "Lowest score is " $lowest)
+	output (print "Total score is " $highestMark)
+end
