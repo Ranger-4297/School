@@ -14,7 +14,7 @@
 ## LC2
 #### Number 
 ##### Swimming
-£8
+£8<br>
 £6.80 (student ID)
 ##### Wall climbing
 £5.50
