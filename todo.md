@@ -28,8 +28,8 @@
 £5/2 games (student ID)<br>
 £7/3 games (student ID)
 ##### Superbowl
-£7.50/1 game
-£11.50/2 games
+£7.50/1 game<br>
+£11.50/2 games<br>
 £10.00/2 games (student ID)
 ## Arcade
 ## Go cart
