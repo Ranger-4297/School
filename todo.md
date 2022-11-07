@@ -2,10 +2,10 @@
 
 ## Laser zone
 #### Prices (per person)
-£5/1 game
-£8/2 games
-£12/3 games
-£16/4 games
+£5/1 game<br>
+£8/2 games<br>
+£12/3 games<br>
+£16/4 games<br>
 <br>
 ## Bunkers
 #### Prices (per person)
